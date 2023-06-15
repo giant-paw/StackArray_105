@@ -27,6 +27,11 @@ public:
 
 		return element;
 	}
+
+	//Method for check if data is empty
+	bool empty() {
+		return(top == -1);
+	}
 };
 
 int main()
