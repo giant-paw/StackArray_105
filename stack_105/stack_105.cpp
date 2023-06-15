@@ -87,6 +87,11 @@ int main()
 				}
 				s.pop();
 				break;
+			case '3':
+				s.display();
+				break;
+			case '4':
+				return 0;
 			
 		}
 	}
