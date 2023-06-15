@@ -21,11 +21,20 @@ public:
 		}
 
 		top++;																		// Step 2
-		stack_array[top] = element;													// Srep 3
+		stack_array[top] = element;													// Step 3
 		cout << endl;
 		cout << element << " ditambahkan (pushed)" << endl;
 
 		return element;
+	}
+
+	void pop() {
+		if (empty()) {																// Step 1
+			cout << "\nStack is empty. Cannot pop." << endl;						// step1.a
+			return;																	// step 1.b
+		}
+
+		
 	}
 
 	//Method for check if data is empty
