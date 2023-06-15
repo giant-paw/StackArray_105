@@ -17,6 +17,7 @@ public:
 	void push() {
 		if (top == 4) {																// Step 1
 			cout << "Number of data exceeds the limits." << endl;
+			return;
 		}
 
 		cout << "\nEnter a element : ";
