@@ -58,4 +58,15 @@ public:
 
 int main()
 {
+	StackArray s;
+	while (true) {
+		cout << endl;
+		cout << "\n=== Stack Menu ===\n";
+		cout << "1. PUSH\n";
+		cout << "2. POP\n";
+		cout << "3. DISPLAY\n";
+		cout << "4. EXIT\n";
+		cout << "\nEnter your Choice: ";
+
+	}
 }
