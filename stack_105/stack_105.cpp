@@ -72,12 +72,22 @@ int main()
 		char ch = (input.empty() ? '0' : input[0]);
 		
 		switch (ch) {
-		case '1': {
-			cout << "\nEnter a elmeent : ";
-			string element;
-			getline(cin, element);
-			s.push(element);
-			break;
+
+			case '1': {
+				cout << "\nEnter a elmeent : ";
+				string element;
+				getline(cin, element);
+				s.push(element);
+				break;
+			}
+			case '2':
+				if (s.empty()) {
+					cout << "\nStack is empty." << endl;
+					break;
+				}
+				s.pop();
+				break;
+			
 		}
 	}
 }
